@@ -1,7 +1,6 @@
 # Yoda
-# Jira Clone v2.0
 
-A simplified Jira clone built with Remix, created as a personal project to sharpen my skills. It's not meant to be a production-ready Jira replacement — it's still evolving, with more features and refinements on the way.
+A simplified Project Mangement awebsite built with Remix, created as a personal project to sharpen my skills. It's not meant to be a production-ready Jira replacement — it's still evolving, with more features and refinements on the way.
 
 I drew inspiration from the real [Jira](https://www.atlassian.com/es/software/jira) and from [Trello](https://trello.com/), and [Ivor's Jira clone](https://github.com/oldboyxx/jira_clone) was a big influence on the visual design (honestly, I prefer his take over the original). That said, everything here — fonts and icons aside — was built from scratch by me.
 
