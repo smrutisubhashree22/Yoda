@@ -4,7 +4,7 @@ A simplified Project Mangement awebsite built with Remix, created as a personal 
 
 I drew inspiration from the real [Jira](https://www.atlassian.com/es/software/jira) and from [Trello](https://trello.com/), and [Ivor's Jira clone](https://github.com/oldboyxx/jira_clone) was a big influence on the visual design (honestly, I prefer his take over the original). That said, everything here — fonts and icons aside — was built from scratch by me.
 
-🔗 [Live Demo](https://jira-clone.fly.dev)
+
 
 ## Table of Contents
 
@@ -102,14 +102,13 @@ The app has three main sections: login, projects list, and project space.
 
 The login screen is the first thing you'll see. Pick a user from a simple select input to log in — this creates a cookie session used to authenticate you server-side. Without it, you'll be redirected back to the login page. You can log out anytime via the avatar menu in the top-right corner, which clears the session and sends you back to login.
 
-<img src="./public/images/readme/login.png" alt="Login" width="500px" />
+
 
 ### Projects List
 
 This view lists the projects the logged-in user has access to, and lets you create new projects and assign users to them.
 
-<img src="./public/images/readme/projects.png" alt="Projects" />
-<img src="./public/images/readme/projects-new.png" alt="ProjectsNew" />
+
 
 ### Project Space
 
@@ -117,12 +116,11 @@ This is the heart of the app: the project board, showing all its issues. There a
 
 From the board, you can create, edit, and delete issues; update their properties and category; add comments; assign them to users; and drag and drop issues between categories. Every change streams to the server via Server-Sent Events, so the board updates in real time — try opening two tabs side by side to see it in action.
 
-<img src="./public/images/readme/project.png" alt="Board" />
+
 
 Clicking into an issue opens an editing panel with all its details. It's designed to be simple and intuitive, with server-side validation built in. Despite living on its own URL route, it renders as a modal with a smooth transition.
 
-<img src="./public/images/readme/issue-panel.png" alt="Issue panel" />
-
+<
 ## Technologies
 
 Built with [React](https://reactjs.org/) (ES6 + hooks), [TypeScript](https://www.typescriptlang.org/), and [Remix](https://remix.run/) for SSR. UI components use [Radix](https://www.radix-ui.com/) for accessibility, styled with [Tailwind CSS](https://tailwindcss.com/). Remix's SSR-first approach keeps client-side state to a minimum.
