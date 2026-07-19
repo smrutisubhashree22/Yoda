@@ -30,7 +30,7 @@ import { formatTags, formatProperties } from "@utils/meta";
 
 export const meta: V2_MetaFunction<typeof loader> = ({ data }) => {
   const { issue, projectId } = data as LoaderData;
-  const title = `Jira clone - ${issue.name}`;
+  const title = `Yoda - ${issue.name}`;
   const description = issue.description || "No description";
   const image =
     "https://jira-clone.fly.dev/static/images/readme/issue-panel.png";

@@ -5,7 +5,7 @@ import { Error500 } from "@app/components/error-500";
 import { formatTags } from "@utils/meta";
 
 export const meta: V2_MetaFunction = () => {
-  const title = "Jira clone - Error";
+  const title = "Yoda - Error";
   const description =
     "Manage your project. Create, edit, delete new issues and assigne them.";
 

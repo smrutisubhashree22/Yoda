@@ -22,7 +22,7 @@ import { formatTags, formatProperties } from "@utils/meta";
 
 export const meta: V2_MetaFunction<typeof loader> = ({ data }) => {
   const { project } = data as LoaderData;
-  const title = "Jira clone - Board";
+  const title = "Yoda - Board";
   const description =
     "Manage your project. Create, edit, delete new issues and assigne them.";
   const image = "https://jira-clone.fly.dev/static/images/readme/project.png";

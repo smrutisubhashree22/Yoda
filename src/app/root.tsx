@@ -37,12 +37,11 @@ export const links = () => {
 };
 
 export const meta: V2_MetaFunction = () => {
-  const title = "Jira clone";
+  const title = "Yoda - Task Manager";
   const description =
-    "Task manager application inspired in Jira. Side project made with Remix, React, Tailwind, TypeScript and more.";
-  const image =
-    "https://jira-clone.fly.dev/static/images/select-theme-light.png";
-  const url = "https://jira-clone.fly.dev";
+    "Yoda is a task manager application. Side project made with Remix, React, Tailwind, TypeScript and more.";
+  const image = "https://yoda.fly.dev/static/images/select-theme-light.png";
+  const url = "https://yoda.fly.dev";
 
   const tags = {
     charset: "utf-8",
@@ -51,15 +50,15 @@ export const meta: V2_MetaFunction = () => {
     description: description,
     "twitter:card": "summary_large_image",
     "twitter:site": url,
-    "twitter:domain": "jira-clone.fly.dev",
+    "twitter:domain": "yoda.fly.dev",
     "twitter:title": title,
     "twitter:description": description,
     "twitter:image": image,
     "twitter:image:width": "951",
     "twitter:image:height": "696",
     "twitter:image:alt": title,
-    "twitter:creator": "@Jack_DanielSG",
-    "twitter:creator:id": "Jack_DanielSG",
+    "twitter:creator": "@YourHandleHere",
+    "twitter:creator:id": "YourHandleHere",
   };
 
   const properties = {
@@ -169,7 +168,7 @@ const errorComponentStyle: CSSProperties = {
 export function ErrorBoundary({ error }: { error: Error }) {
   console.error(error);
   const errorMessage =
-    "It seems there is a critical error! Please try again or contact me at: danielserrano.contacto@gmail.com";
+    "It seems there is a critical error! Please try again or contact support.";
 
   return (
     // Inline styles because tailwind is not loaded at this point
