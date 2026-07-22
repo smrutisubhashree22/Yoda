@@ -102,23 +102,26 @@ The app has three main sections: login, projects list, and project space.
 
 The login screen is the first thing you'll see. Pick a user from a simple select input to log in — this creates a cookie session used to authenticate you server-side. Without it, you'll be redirected back to the login page. You can log out anytime via the avatar menu in the top-right corner, which clears the session and sends you back to login.
 
+<img width="578" height="576" alt="Screenshot (464)" src="https://github.com/user-attachments/assets/5a87a654-e11d-42e3-8d37-7741393e6ce8" />
+
 
 
 ### Projects List
 
 This view lists the projects the logged-in user has access to, and lets you create new projects and assign users to them.
 
-
+<img width="1920" height="704" alt="Screenshot (465)" src="https://github.com/user-attachments/assets/8a81624f-fe0a-4744-9ec8-6995830b2668" />
 
 ### Project Space
 
 This is the heart of the app: the project board, showing all its issues. There are additional tabs for analytics (not yet implemented) and backlog (purely for UI purposes — it won't be built out). A couple of links intentionally trigger 404 and 500 errors, just to show off Remix's error handling.
 
+<img width="1920" height="854" alt="Screenshot (466)" src="https://github.com/user-attachments/assets/5e736999-b168-47d4-a310-10182d2a2512" />
+
 From the board, you can create, edit, and delete issues; update their properties and category; add comments; assign them to users; and drag and drop issues between categories. Every change streams to the server via Server-Sent Events, so the board updates in real time — try opening two tabs side by side to see it in action.
-
-
-
 Clicking into an issue opens an editing panel with all its details. It's designed to be simple and intuitive, with server-side validation built in. Despite living on its own URL route, it renders as a modal with a smooth transition.
+
+<img width="1920" height="885" alt="Screenshot (467)" src="https://github.com/user-attachments/assets/04529e67-9392-47c1-aab0-e4394734221b" />
 
 <
 ## Technologies
